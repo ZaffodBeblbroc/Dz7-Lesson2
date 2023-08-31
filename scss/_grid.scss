@@ -1,0 +1,50 @@
+.calculator {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.text {
+  grid-row: 1/2;
+  grid-column: 1/5;
+}
+
+.percent,  .clear, .remove {
+  grid-row: 2/3;
+}
+
+ .division {
+  grid-row: 3/4;
+}
+
+.seven, .eight, .nine, .multiplication {
+  grid-row: 4/5;
+}
+
+.four, .five, .six, .subtraction {
+  grid-row: 5/6;
+}
+
+.one, .two, .three, .addition{
+  grid-row: 6/7;
+}  
+
+.minus, .zero, .point, .equals {
+  grid-row: 7/8;
+}
+
+.minus, .one, .four, .seven, .percent {
+  grid-column: 1/2;
+}
+
+.zero, .two, .five, .eight {
+  grid-column: 2/3;
+}
+
+.point, .three, .six, .nine, .clear {
+  grid-column: 3/4;
+}
+
+.equals, .addition, .subtraction, .multiplication, .division, .remove {
+  grid-column: 4/5;
+}

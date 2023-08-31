@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 50px;
+  max-width: 1000px;
+  height: 100vh;
+  background-color: coral;
+
+  .calculator {
+    margin: 0px auto;
+    padding: 10px;
+    width: 400px;
+    height: 600px;
+    background-color: darkblue;
+
+    button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;   
+    background-color: chartreuse;
+    }
+  }
+}
+
+@import '_grid';
