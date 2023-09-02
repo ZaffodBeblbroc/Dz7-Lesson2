@@ -61,7 +61,7 @@ function clickEquals() {
       firstNum = Number(firstNum) - Number(secondNum);
       console.log(firstNum, sign, secondNum);
     break;
-    case '*':
+    case 'x':
       firstNum = Number(firstNum) * Number(secondNum);
       console.log(firstNum, sign, secondNum);
     break;

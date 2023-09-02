@@ -9,42 +9,38 @@
   grid-column: 1/5;
 }
 
-.percent,  .clear, .remove {
+.percent,  .clear, .remove, .division  {
   grid-row: 2/3;
 }
 
- .division {
+.seven, .eight, .nine, .multiplication {
   grid-row: 3/4;
 }
 
-.seven, .eight, .nine, .multiplication {
+.four, .five, .six, .subtraction {
   grid-row: 4/5;
 }
 
-.four, .five, .six, .subtraction {
+.one, .two, .three, .addition {
   grid-row: 5/6;
 }
 
-.one, .two, .three, .addition{
+.minus, .zero, .point, .equals{
   grid-row: 6/7;
 }  
-
-.minus, .zero, .point, .equals {
-  grid-row: 7/8;
-}
 
 .minus, .one, .four, .seven, .percent {
   grid-column: 1/2;
 }
 
-.zero, .two, .five, .eight {
+.zero, .two, .five, .eight, .clear {
   grid-column: 2/3;
 }
 
-.point, .three, .six, .nine, .clear {
+.point, .three, .six, .nine, .remove {
   grid-column: 3/4;
 }
 
-.equals, .addition, .subtraction, .multiplication, .division, .remove {
+.equals, .addition, .subtraction, .multiplication, .division {
   grid-column: 4/5;
 }
